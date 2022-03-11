@@ -1,0 +1,30 @@
+********************************************************Excel(cleaning Data)**************************************
+
+1) change the data type of the column (Release.Date) from character to date
+2) change the sales format of the column(domestic, international, world sales) into $currency format.
+3) save the file into .csv file and export for doing anlysis on R-studio.
+
+
+******************************************************Rstudio(Analyzing and manipulate Data)**************************************
+
+1) using read.csv() to read highest_move_salws.csv file into highest_mov_Sale_Jan_2022_df(data frame).
+2) removing column x from the highest_mov_Sale_Jan_2022_df.
+3) removing all NA data from all the columns in the highest_mov_Sale_Jan_2022_df 
+4) Alphabatically sort column Title from highest_mov_Sale_Jan_2022_df
+5) Format dates to mm/dd/yyyy for relase date.
+6) taking averages of Domestic, International, World Sales.
+7) change the highest_mov_Sale_Jan_2022_df to .xlsx file using package "writexl" with write.xlsx()
+
+*******************************************************Tableau(Data vizualization)**************************************
+
+1) For Data visualization I Used Tree maps and stacked bar graphs to visualize data.
+2) Sheet 1: visualize Highest Domestic Sales of  [Action, Adventure, Thriller] genere movies till Jan 2022 using Tree maps graph.
+3) Sheet 2: visualize Highest International sales of all Horror genre movies  till Jan 2022 using Tree map graph.  
+4) Sheet 3: visualize Highest World Sales of all Comedy genre movies, by  Distributor Warner Bros. and  Paramount Pictures  till Jan 2022 using Tree Maps graph.
+5) Sheet 4: visualize Highest domestic movie sales by License R from all Distributors till Jan 2022 using Tree maps 
+6) Sheet 5: visualize Highest Movie Runtime by all types of Biography Genre till Jan 2022 using stacked bar graph.
+6) Dashboard: creating a dashboard for all above visualization.
+7) Story:     creating a data story for all above visualization.
+
+
+ 
